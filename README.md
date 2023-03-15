@@ -2,6 +2,16 @@
 
 Komodo documentation uses [Vuepress](https://vuepress.vuejs.org/). 
 
+## Notes
+
+make one pagers
+
+```
+find atomicdex-api-legacy/*.md | xargs -I{} sh -c "cat {}; echo '\n'" > atomicdex-legacy-api-one-pager.md
+find atomicdex-api-20/*.md | xargs -I{} sh -c "cat {}; echo '\n'" > atomicdex-master-20-api-one-pager.md
+find atomicdex-api-20-dev/*.md | xargs -I{} sh -c "cat {}; echo '\n'" > atomicdex-dev-20-api-one-pager.md
+```
+
 ## Setup:
 
 

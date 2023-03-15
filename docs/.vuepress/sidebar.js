@@ -1,6 +1,13 @@
 let atomicDEXsidebar = require("./atomicDEX-sidebar.js");
 var sidebar = {
   "/basic-docs/start-here/": [
+    {title: "AtomicDEX API One Pagers", collapsable: true,sidebarDepth: 0,
+    children: [
+      ["/basic-docs/atomicdex-legacy-api-one-pager.md",
+      "AtomicDEX Legacy API"],["/basic-docs/atomicdex-master-20-api-one-pager.md",
+      "AtomicDEX API (Master - v2.0)"],["/basic-docs/atomicdex-dev-20-api-one-pager.md",
+      "AtomicDEX API (Dev - v2.0)"]
+    ]},
     {
       title: "About Komodo Platform",
       collapsable: true,
